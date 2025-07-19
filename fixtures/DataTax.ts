@@ -1,12 +1,12 @@
 const PPTaxData = [{
-    "tax": "",
-    "acc_no": ""
+    "tax": "7687207155319",
+    "acc_no": "9869210127"
 
 }, {
-    "tax": "",
-    "acc_no": ""
+    "tax": "8042494259209",
+    "acc_no": "8892624765"
 }, {
-    "tax": "",
-    "acc_no": ""
+    "tax": "2720835239669",
+    "acc_no": "7280184040"
 }]
 export default PPTaxData;
