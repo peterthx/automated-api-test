@@ -6,10 +6,10 @@ import PPMobileData from '../fixtures/DataMobile'
 const randomItem = PPMobileData[Math.floor(Math.random() * PPMobileData.length)]
 const DatetimeV1 = FormatterDatetime();
 
-test.describe('Test API call as a service promt pay', () => {
-    // Activate Mobile
-    test('Activate a mobile prompt pay successfully', async ({ request }) => {
+test.describe('Test API call as a service mobile promtpay', () => {
 
+    test('Activate a mobile prompt pay successfully', async ({ request }) => {
+        // Activate mobile
         const requestHeaders = {
             ...HEADERS.MOBILE_ACTIVATE_HEADER,
             'request_uuid': generateUUID(),
@@ -33,9 +33,8 @@ test.describe('Test API call as a service promt pay', () => {
 
     });
 
-    // Query Mobile
     test('Inquiry a mobile prompt pay successfully', async ({ request }) => {
-
+        // Query mobile
         const requestHeaders = {
             ...HEADERS.MOBILE_INQUIRY_HEADER,
             'request_uuid': generateUUID(),
@@ -57,9 +56,8 @@ test.describe('Test API call as a service promt pay', () => {
 
     });
 
-    // Deactivate mobile
     test('Deactivate a mobile prompt pay successfully', async ({ request }) => {
-
+        // Deactivate mobile
         const requestHeaders = {
             ...HEADERS.MOBILE_DEACTIVATE_HEADER,
             'request_uuid': generateUUID(),

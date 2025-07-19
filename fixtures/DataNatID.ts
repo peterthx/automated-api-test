@@ -1,14 +1,13 @@
-const PPCitizenIdData = [
+const PPNatIdData = [
     {
-        "citizen_id": "",
+        "citizen": "",
         "acc_no": ""
-    },
-    {
-        "citizen_id": "",
+    }, {
+        "citizen": "",
         "acc_no": ""
-    },
-    {
-        "citizen_id": "",
+    }, {
+        "citizen": "",
         "acc_no": ""
-    }]
-export default PPCitizenIdData;
+    }
+]
+export default PPNatIdData;

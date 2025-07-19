@@ -1,15 +1,12 @@
-const PPTaxData = [
-    {
-        "tax_id": "",
-        "acc_no": ""
-    },
-    {
-        "tax_id": "",
-        "acc_no": ""
-    },
-    {
-        "tax_id": "",
-        "acc_no": ""
-    }
-]
+const PPTaxData = [{
+    "tax": "",
+    "acc_no": ""
+
+}, {
+    "tax": "",
+    "acc_no": ""
+}, {
+    "tax": "",
+    "acc_no": ""
+}]
 export default PPTaxData;
