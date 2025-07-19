@@ -19,48 +19,48 @@ export const HEADERS = {
     // header
     TAX_ACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-tax-activate',
+        'service-name': 'promptpay-tax-activate',
         'request-app-id': 'AB_EXAMPLE'
     },
     TAX_INQUIRY_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-tax-inquiry',
+        'service-name': 'promptpay-tax-inquiry',
         'request-app-id': 'AB_EXAMPLE'
     },
     TAX_DEACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-tax-deactivate',
+        'service-name': 'promptpay-tax-deactivate',
         'request-app-id': 'AB_EXAMPLE'
     },
     CITIZEN_ACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-citizen-activate',
+        'service-name': 'promptpay-citizen-activate',
         'request-app-id': 'AB_EXAMPLE'
     },
     CITIZEN_INQUIRY_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-citizen-inquiry',
+        'service-name': 'promptpay-citizen-inquiry',
         'request-app-id': 'AB_EXAMPLE'
     },
 
     CITIZEN_DEACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-citizen-deactivate',
+        'service-name': 'promptpay-citizen-deactivate',
         'request-app-id': 'AB_EXAMPLE'
     },
     MOBILE_ACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-mobile-activate',
+        'service-name': 'promptpay-mobile-activate',
         'request-app-id': 'AB_EXAMPLE'
     },
     MOBILE_INQUIRY_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-mobile-inquiry',
+        'service-name': 'promptpay-mobile-inquiry',
         'request-app-id': 'AB_EXAMPLE'
     },
     MOBILE_DEACTIVATE_HEADER: {
         'Content-Type': 'application/json',
-        'service-name': 'registered-promptpay-mobile-deactivate',
+        'service-name': 'promptpay-mobile-deactivate',
         'request-app-id': 'AB_EXAMPLE'
     }
 }
