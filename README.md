@@ -1,1 +1,0 @@
-# automated-api-test
