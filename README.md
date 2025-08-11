@@ -24,4 +24,7 @@ npx playwright test --project=chromium
 # Get help
 npx playwright test --help
 
+# run playwright more than 1 time(s) using cli
+npx playwright test --repeat-each=5 tests/example.spec.ts
+
 ```

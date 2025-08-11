@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {1..5}; do
+for i in {1..10}; do
   echo "🧪 Running test iteration $i"
   npx playwright test tests/employee.spec.ts
   if [ $? -ne 0 ]; then
