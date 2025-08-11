@@ -5,7 +5,7 @@ export const ENV_BASE = {
     SERVICE_NAMES_MOBILE_DEACTIVATE: 'http://localhost:3000/mobile/deactivate',
 
     // url for employees
-    SERVICE_NAMES_QUERY_EMP:'http://localhost:3000/api/employees/search'
+    SERVICE_NAMES_QUERY_EMPLOYEES:'http://localhost:3000/api/employees/search'
 }
 
 export const HEADERS = {

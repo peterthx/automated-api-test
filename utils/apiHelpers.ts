@@ -23,7 +23,7 @@ export function FormatterDatetime() {
 
 // Generate Referance
 export function generateRef(){
-    const prefix = 'NTB';
+    const prefix = 'XML';
     const randomNumber = Math.floor(Math.random()*900000)+ 100000;
     return `${prefix}${randomNumber}`
 }
